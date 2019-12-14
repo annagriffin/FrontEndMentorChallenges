@@ -1,7 +1,7 @@
 # Frontend Mentor - Huddle landing page with single introductory section
 
-# [View Live Preview](huddle-landing-page-with-single-introductory-section)
-[![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)](huddle-landing-page-with-single-introductory-section)
+# [View Live Preview](https://upbeat-sammet-d5dad8.netlify.com/huddle-landing-page-with-single-introductory-section/)
+[![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)](https://upbeat-sammet-d5dad8.netlify.com/huddle-landing-page-with-single-introductory-section/)
 
 ## Welcome! 👋
 
