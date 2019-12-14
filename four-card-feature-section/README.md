@@ -1,7 +1,7 @@
 # Frontend Mentor - Four card feature section
 
- ## [View Live Preview](https://quirky-franklin-e9eb83.netlify.com/)
-[![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)](https://quirky-franklin-e9eb83.netlify.com/)
+ ## [View Live Preview](https://upbeat-sammet-d5dad8.netlify.com/four-card-feature-section/)
+[![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)](https://upbeat-sammet-d5dad8.netlify.com/four-card-feature-section/)
 
 ## Welcome! 👋
 
