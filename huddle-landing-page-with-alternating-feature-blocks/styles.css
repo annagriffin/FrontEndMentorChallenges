@@ -1,0 +1,314 @@
+:root {
+    --pink: hsl(322, 100%, 66%);
+    --very-pale-cyan: hsl(193, 100%, 96%);
+    --very-dark-cyan: hsl(192, 100%, 9%);
+    --grayish-blue: hsl(208, 11%, 55%);
+}
+
+
+
+body {
+    font-size: 18px;
+    font-family: 'Open sans', sans-serif;
+    margin: 0;
+    color: var(--very-dark-cyan);
+}
+
+
+.white {
+
+    background-color: white;
+
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+.darker {
+    color: var(--very-dark-cyan);
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+}
+
+
+.lighter {
+    color: var(--grayish-blue);
+
+}
+
+.hero {
+    background-image: url('images/bg-hero-desktop.svg');
+    padding: 40px 60px;
+    background-color: var(--very-pale-cyan);
+    margin-bottom: 120px;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 14px;
+    padding: 14px 60px;
+    border-radius: 50px;
+    text-align: center;
+    margin: auto;
+    box-shadow:  0px 8px 20px -4px #b2bed8b7;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.img img, .right img {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px 0;
+
+}
+
+.pink {
+    background-color: var(--pink);
+    color: white;
+
+}
+
+.left-btn {
+    float: left;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+
+.box {
+    box-shadow:  0px 0px 8px 1px #dddee0b7;
+    margin: 40px 80px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.title-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.left, .right {
+    width: 50%;
+}
+
+.left {
+    margin-right: 35px;
+}
+
+.right {
+    margin-left: 35px;
+}
+
+.logo-white {
+    padding: 180px 0 20px 80px;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+
+.center {
+    text-align: center;
+}
+
+.pop-out {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-right: 20%;
+    margin-left: 20%;
+    top: 100px;
+    background-color: white;
+
+}
+
+.wide {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pop-out-wrapper {
+    display: flex;
+    justify-content: center;
+    border: navajowhite 3px solid;
+    margin: 40px 80px;
+    position: relative;
+    top: 50px;
+}
+
+
+.fill-white {
+    fill:white;
+}
+
+
+.footer-container {
+    background-color: var(--very-dark-cyan);
+    color: white;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.col-1, .col-2, .col-3 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 40px;
+
+}
+
+.copy-right {
+    text-align: right;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.location, .phone, .email{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 20px 0 20px;
+    font-size: 16px;
+}
+
+
+.icon {
+    padding: 0 16px;
+}
+
+.link {
+    padding: 16px 0;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    padding: 0 8px 0 20px;
+
+}
+
+.section-1, .section-2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.section-2 {
+    margin-left: 40px;
+}
+
+.footer {
+    margin: 20px;
+    display: block;
+}
+
+p.attribution {
+    margin: 0;
+}
+
+
+
+
+@media only screen and (max-width: 786px) {
+
+    .title-wrapper, .box, .information, .links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
+    }
+
+
+
+    .box {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .col-1, .col-2, .col-3 {
+        padding-left: 20px;
+    }
+
+    .section-2 {
+        margin-left: 0;
+    }
+
+    .icon{
+        padding-left: 0;
+    }
+
+    .logo-white, .hero {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .title-wrapper {
+        padding: 0 10px;
+    }
+
+    .copy-right {
+        text-align: center;
+    }
+
+    .pop-out, .box {
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+
+
+
+    .left, .right {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+
+    }
+
+    .left-btn {
+        float: none;
+        margin: 0 80px 80px 80px;
+    }
+
+    .text, .img {
+        padding: 40px;
+    }
+
+
+
+
+
+
+
+
+
+}
