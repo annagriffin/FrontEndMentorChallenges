@@ -33,7 +33,7 @@ input {
     margin-bottom: 14px;
     padding: 12px 16px;
     border-radius: 5px;
-    border: solid 1px var(--grayish-blue);
+    border: solid 1.5px #b6bdbd6b;
     font-weight: 600;
 }
 
@@ -51,8 +51,16 @@ input {
     flex-direction: column;
     flex: 1;
     margin: 10px 30px;
-    max-width: 480px;
 
+}
+
+.intro {
+    min-width: 260px;
+}
+
+.form-wrapper {
+    max-width: 400px;
+    min-width: 400px;
 }
 
 .submit {
@@ -62,19 +70,25 @@ input {
     box-shadow: 0 3px #449971bd ;
 }
 
+.submit:hover {
+    cursor: pointer;
+    opacity: .6;
+}
+
 
 .small-print {
     color: var(--grayish-blue);
     font-size: 10px;
     text-align: center;
     margin-bottom: 24px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .offer {
     background: var(--blue);
     color: white;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding: 12px 34px;
     text-align: center;
     border-radius: 8px;
     margin: 18px 0;
@@ -86,16 +100,39 @@ input {
     padding: 30px 30px 0 30px;
 }
 
+.orange {
+    color: var(--red);
+
+}
+
+
 .shadow {
     box-shadow: 0 5px #5f5d5d38;
 }
 
 
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width:736px) {
 
     .container {
         flex-direction: column;
+        padding: 0;
     }
+
+    .intro {
+        text-align: center;
+    }
+
+    .signup {
+        padding: 15px 15px 0 15px;
+    }
+
+
+    .form-wrapper {
+        min-width: 284px;
+
+    }
+
+
 
 
 
