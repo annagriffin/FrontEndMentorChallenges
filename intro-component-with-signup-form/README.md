@@ -1,6 +1,8 @@
 # Frontend Mentor - Intro component with sign up form
 
-![Design preview for the Intro component with sign up form coding challenge](./design/desktop-preview.jpg)
+# [View Live Preview](https://upbeat-sammet-d5dad8.netlify.com/intro-component-with-signup-form/)
+
+[![Design preview for the Intro component with sign up form coding challenge](./design/desktop-preview.jpg)](https://upbeat-sammet-d5dad8.netlify.com/intro-component-with-signup-form/)
 
 ## Welcome! 👋
 
