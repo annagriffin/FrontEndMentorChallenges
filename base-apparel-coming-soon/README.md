@@ -1,6 +1,8 @@
 # Frontend Mentor - Base Apparel coming soon page
 
-![Design preview for the Base Apparel coming soon page coding challenge](./design/desktop-preview.jpg)
+# [View Live Preview](https://upbeat-sammet-d5dad8.netlify.com/base-apparel-coming-soon)
+
+[![Design preview for the Base Apparel coming soon page coding challenge](./design/desktop-preview.jpg)]((https://upbeat-sammet-d5dad8.netlify.com/base-apparel-coming-soon))
 
 ## Welcome! 👋
 
