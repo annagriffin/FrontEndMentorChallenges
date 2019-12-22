@@ -17,6 +17,8 @@ form.addEventListener('submit', (e) => {
         email.style.backgroundImage = 'url(images/icon-error.svg)';
         email.style.backgroundRepeat = 'no-repeat';
         email.style.backgroundPosition = 'right 8em bottom 50%';
+        email.style.border = 'solid 1px var(--soft-red)';
+
     }
 
     e.preventDefault();
