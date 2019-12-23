@@ -1,8 +1,6 @@
 # Frontend Mentor - Ping coming soon page
 
-# [View Live Preview](https://upbeat-sammet-d5dad8.netlify.com/ping-coming-soon-page/)
-
-[![Design preview for the Ping coming soon page coding challenge](./design/desktop-preview.jpg)](https://upbeat-sammet-d5dad8.netlify.com/ping-coming-soon-page/)
+![Design preview for the Ping coming soon page coding challenge](./design/desktop-preview.jpg)
 
 
 ## Welcome! 👋
