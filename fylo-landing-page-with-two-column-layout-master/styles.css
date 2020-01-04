@@ -58,7 +58,7 @@ a {
   justify-content: flex-end;
   flex-grow: 1;
   font-family: "Raleway", sans-serif;
-  padding-top: 80px;
+  padding-top: 50px;
   padding-right: 60px;
 }
 
@@ -94,7 +94,7 @@ a {
 .logo,
 .logo-white {
   padding-left: 80px;
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
 .phone,
