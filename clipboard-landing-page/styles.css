@@ -1,0 +1,76 @@
+:root {
+  --string-cyan: hsl(171, 66%, 44%);
+  --light-blue: hsl(233, 100%, 69%);
+  --dark-grayish-blue: hsl(210, 10%, 33%);
+  --grayish-blue: hsl(201, 11%, 66%);
+}
+
+
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 18px;
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.iOS {
+  background-color: var(--string-cyan);
+}
+
+.mac {
+  background-color: var(--light-blue);
+}
+
+.icon {
+  border: red 1px solid;
+}
+
+.item {
+  font-size: 12px;
+  color: var(--grayish-blue);
+  line-height: 2em;
+}
+
+.column {
+  text-align: center;
+}
+
+
+.item-title {
+  font-weight: 600;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+
+
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
